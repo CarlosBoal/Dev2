@@ -4,10 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://github.com/CarlosBoal/Dev2/projeto-gihub-pucpr",
-  "scripts": {"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  ...
+  "scripts": {
 }
 
     "hello": "node src/hello.js",
