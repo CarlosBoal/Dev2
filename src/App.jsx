@@ -16,7 +16,8 @@ function App() {
           count is {count}
         </button>
         <div>
-          <h3>New feature</h3>
+            <div className="imgcontainer">
+          <img className="img" src={url} alt="imagem" />
         </div>
       </div>
     </>
