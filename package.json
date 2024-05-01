@@ -3,8 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://yoLionGit.github.io/projeto-gihub-pucpr",
-  "scripts": {
+  "homepage": "https://github.com/CarlosBoal/Dev2/projeto-gihub-pucpr",
+  "scripts": {"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  ...
+}
+
     "hello": "node src/hello.js",
     "deploy": "gh-pages -d build",
     "dev": "vite",
